@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreditCardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/credit">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Card Number"
+                android:textSize="20dp"
+                android:background="#f56314"
+
+                android:layout_marginRight="20dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:inputType="number"
+                android:layout_height="35dp"
+                android:hint="Please Enter card Number"
+                android:background="#f56314"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textSize="20dp"
+                android:background="#ef1725"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="50dp"/>
+            />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:inputType="numberPassword"
+                android:layout_height="35dp"
+                android:hint="Please enter your password"
+                android:background="#ef1936"
+                android:layout_marginTop="50dp"/>
+            />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAY"
+            android:layout_marginTop="50dp"/>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
